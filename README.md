@@ -9,7 +9,10 @@ There are two different Python notebooks in this repo. One requires Docker and t
 
 **Outputs**
 
-Both notebooks cleans the data, creates a sensor site summary, and a seasonal summary that users can download as a geopackage.
+Both notebooks creates 3 geopackages that can be exported:
+* cleaned data
+* sensor site summary
+* seasonal summary with minimum, maximum, median, and mean PM 2.5 values
 
 ## Notebook that uses Docker - AirQualityCleanedData_Docker
 
@@ -44,3 +47,7 @@ This notebook uses Google Colab and does not require any software downloads or p
 * Go to the `AirQualityCleanedData.ipynb` Python notebook.
 * Click on the "Open in Colab" button.
 * Save a copy of the `AirQualityCleanedData.ipynb` to your own Google Drive and follow the instructions.
+
+# Additional Notes
+
+The data also includes the ColorVision Assist AQI color formulas that can be used to visualize the data. If you are using ArcGIS Pro this [tutorial](https://support.esri.com/en-us/knowledge-base/how-to-apply-hex-or-rgb-color-codes-from-an-attribute-f-000024233) shows how you can use RGB color codes from an attribute field for symbology.
