@@ -15,7 +15,7 @@ Both notebooks cleans the data, creates a sensor site summary, and a seasonal su
 
 This notebook searches for all the csv files in the location that you choose. This allows you to combine multiple years and locations of data together.
 
-**Requirements**
+### Requirements
     
 You need to have Anaconda and Docker installed on your machine.
 
@@ -38,7 +38,9 @@ Copy the Jupyter Lab url and paste it into your browser.
 
 Open `AirQualityCleanedData_Docker.ipynb` and follow the instructions.
 
-## Notebook that uses Google Colab
+## Notebook that uses Google Colab - AirQualityCleanedData
 This notebook uses Google Colab and does not require any software downloads or powershell use. This notebook currently limits users to uploading one csv file at a time for analysis.
 
-Click on the link to open Python notebook in Google Colab and follow the instructions.
+* Go to the `AirQualityCleanedData.ipynb` Python notebook.
+* Click on the "Open in Colab" button.
+* Save a copy of the `AirQualityCleanedData.ipynb` to your own Google Drive and follow the instructions.
